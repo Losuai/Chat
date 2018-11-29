@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="353.0" prefWidth="546.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controller.viewcontroller.LoginViewController">
+   <children>
+      <Button fx:id="l_log_bt" layoutX="154.0" layoutY="242.0" mnemonicParsing="false" onAction="#log_bt_event" prefHeight="37.0" prefWidth="93.0" text="登录" />
+      <Button fx:id="l_reg_bt" layoutX="283.0" layoutY="242.0" mnemonicParsing="false" onAction="#reg_bt_event" prefHeight="37.0" prefWidth="93.0" text="注册" textFill="#282828" />
+      <TextField fx:id="l_username_tf" layoutX="148.0" layoutY="109.0" prefHeight="44.0" prefWidth="247.0" promptText="请输入" />
+      <Label layoutX="213.0" layoutY="28.0" prefHeight="50.0" prefWidth="117.0" text="welcome">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="85.0" layoutY="117.0" prefHeight="28.0" prefWidth="52.0" text="用户名" />
+      <Label layoutX="87.0" layoutY="180.0" prefHeight="20.0" prefWidth="41.0" text="密码" />
+      <PasswordField fx:id="l_pwd_pf" layoutX="148.0" layoutY="168.0" prefHeight="44.0" prefWidth="247.0" promptText="请输入" />
+   </children>
+</AnchorPane>

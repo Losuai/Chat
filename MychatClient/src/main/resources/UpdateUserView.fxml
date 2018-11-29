@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="382.0" prefWidth="436.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controller.viewcontroller.UpdateUserViewController">
+   <children>
+      <TextField fx:id="username_tx_id" layoutX="134.0" layoutY="59.0" />
+      <TextField fx:id="last_pwd_id" layoutX="134.0" layoutY="105.0" />
+      <TextField fx:id="new_pwd_id" layoutX="134.0" layoutY="161.0" />
+      <TextField fx:id="new_sign_id" layoutX="134.0" layoutY="224.0" />
+      <TextField fx:id="new_phone_id" layoutX="134.0" layoutY="284.0" />
+      <Text layoutX="73.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="用户名" />
+      <Text layoutX="58.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="原始密码" />
+      <Text layoutX="73.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="新密码" />
+      <Text layoutX="73.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="签名" />
+      <Text layoutX="73.0" layoutY="305.0" strokeType="OUTSIDE" strokeWidth="0.0" text="电话" />
+      <Button fx:id="user_up_id" layoutX="134.0" layoutY="339.0" mnemonicParsing="false" onAction="#user_up_event" text="更新" />
+      <Button fx:id="exit_bt_id" layoutX="235.0" layoutY="339.0" mnemonicParsing="false" onAction="#exit_bt_event" text="取消" />
+      <TextField fx:id="last_username_id" layoutX="134.0" layoutY="14.0" />
+      <Text layoutX="66.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="新用户名" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="437.0" prefWidth="606.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controller.viewcontroller.IndexViewController">
+   <children>
+      <TextArea fx:id="mes_show" editable="false" layoutX="185.0" layoutY="39.0" prefHeight="326.0" prefWidth="394.0" />
+      <Button fx:id="send_mes_bt" layoutX="510.0" layoutY="368.0" mnemonicParsing="false" onAction="#send_mes_ex" prefHeight="45.0" prefWidth="69.0" text="发送" />
+      <TextField fx:id="mes_tx" layoutX="185.0" layoutY="368.0" prefHeight="45.0" prefWidth="318.0" />
+      <Label layoutX="344.0" layoutY="4.0" prefHeight="20.0" prefWidth="38.0" text="群聊" />
+      <Accordion layoutX="14.0" layoutY="60.0" />
+      <Text fx:id="user_namet_tx" layoutX="14.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="163.30029296875" />
+      <Text layoutX="25.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="资料" textAlignment="CENTER" wrappingWidth="52.30029296875" />
+      <Button fx:id="bj_user_bt" layoutX="95.0" layoutY="45.0" mnemonicParsing="false" onAction="#bj_user_event" prefHeight="30.0" prefWidth="52.0" text="编辑" textAlignment="CENTER" />
+      <Text layoutX="28.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="电话" />
+      <Text layoutX="28.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="签名" wrappingWidth="30.30029296875" />
+      <Text fx:id="phone_id" layoutX="28.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="142.30029296875" />
+      <Text fx:id="sign_id" layoutX="25.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="148.30029296875" />
+      <Button fx:id="talk_id" layoutX="37.0" layoutY="376.0" mnemonicParsing="false" onAction="#Talk_bt" text="私聊" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="152.0" prefWidth="331.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controller.viewcontroller.RegisterMessageViewController">
+   <children>
+      <Text fx:id="text_id" layoutX="63.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="187.30029296875">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="que_bt_id" layoutX="218.0" layoutY="92.0" mnemonicParsing="false" onAction="#que_bt_event" text="确定" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="485.0" prefWidth="540.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controller.viewcontroller.RegisterViewController">
+   <children>
+      <Button fx:id="r_reg_bt" layoutX="149.0" layoutY="350.0" mnemonicParsing="false" onAction="#re_user_event" prefHeight="34.0" prefWidth="116.0" text="注册" />
+      <TextField fx:id="r_username_tf" layoutX="150.0" layoutY="82.0" prefHeight="46.0" prefWidth="238.0" />
+      <PasswordField fx:id="r_pwd_tf" layoutX="149.0" layoutY="143.0" prefHeight="46.0" prefWidth="238.0" />
+      <TextField fx:id="r_tele_tf" layoutX="150.0" layoutY="207.0" prefHeight="46.0" prefWidth="238.0" />
+      <TextField fx:id="r_sign_tf" layoutX="152.0" layoutY="274.0" prefHeight="46.0" prefWidth="238.0" />
+      <Label layoutX="213.0" layoutY="27.0" prefHeight="34.0" prefWidth="103.0" text="用户注册">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="88.0" layoutY="95.0" text="用户名" />
+      <Label layoutX="88.0" layoutY="156.0" text="密码" />
+      <Label layoutX="88.0" layoutY="220.0" text="电话" />
+      <Label layoutX="88.0" layoutY="287.0" text="签名" />
+      <Button fx:id="l_login_bt" layoutX="280.0" layoutY="350.0" mnemonicParsing="false" onAction="#l_login_event" prefHeight="34.0" prefWidth="110.0" text="登录" />
+   </children>
+</AnchorPane>

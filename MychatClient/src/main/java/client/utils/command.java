@@ -1,0 +1,16 @@
+package client.utils;
+
+public interface command {
+    Byte LOGIN_REQUEST = 1;
+    Byte LOGIN_RESPONSE = 2;
+    Byte MESSAGE_REQUEST = 3;
+    Byte MESSAGE_RESPONSE = 4;
+    Byte CREATE_GROUP_REQUEST = 5;
+    Byte GROUP_MESSAGE_REQUEST = 6;
+    Byte GROUP_MESSAGE_RESPONSE = 7;
+    Byte FRIENDS_LIST_RESPONSE = 8;
+    Byte REGISTER_USER_REQUEST = 9;
+    Byte REGISTER_USER_RESPONSE = 10;
+    Byte UPDATE_USER_REQUEST = 11;
+    Byte UPDATE_USER_RESPONSE = 12;
+}

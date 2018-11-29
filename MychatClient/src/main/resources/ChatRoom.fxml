@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="505.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controller.viewcontroller.ChatRoomViewController">
+   <children>
+      <TextArea fx:id="chat_msr_tx" editable="false" layoutX="22.0" layoutY="85.0" prefHeight="354.0" prefWidth="517.0" />
+      <TextField fx:id="chat_ms_tx" layoutX="22.0" layoutY="452.0" prefHeight="39.0" prefWidth="455.0" />
+      <Button fx:id="chat_bt_id" layoutX="477.0" layoutY="452.0" mnemonicParsing="false" onAction="#chat_bt_ac" prefHeight="39.0" prefWidth="57.0" text="发送" />
+      <Label layoutX="240.0" layoutY="14.0" prefHeight="20.0" prefWidth="49.0" text="聊天室" />
+      <TextField fx:id="name_tx_id" layoutX="105.0" layoutY="45.0" />
+      <Text layoutX="31.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="用户名" wrappingWidth="64.30029296875" />
+   </children>
+</AnchorPane>
